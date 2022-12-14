@@ -15,9 +15,7 @@ req.onload = function () {
                 dynamicTyping: true
             });
             updateSaaS(saasList.data)
-            displayAvailable(saasList.data);
-            displayNotAvailable(saasList.data);
-            displayAcquired(saasList.data);
+            displayStore(saasList.data)
         } else {
             console.log("Error: " + req.statusText);
         }
@@ -33,47 +31,24 @@ function updateSaaS(saasList) {
     })
 }
 
-// Display available SaaS as images in a div
-let availableGrid = document.getElementById("available-grid");
-function displayAvailable(saasList) {
+function displayStore(saasList) {
+    let availableGrid = document.getElementById("available-grid");
+    let notAvailableGrid = document.getElementById("not-available-grid");
+    let mySaasGrid = document.getElementById("my-saas-grid");
+
     saasList.forEach(saas => {
+        let div = document.createElement("div");
+        let img = document.createElement("img");
+        img.src = 'img/logos/' + saas.logo;
+        div.appendChild(img);
         if (saas.acquired == false && saas.price <= player.budget) {
-            let div = document.createElement("div");
-            let img = document.createElement("img");
-            img.src = 'img/logos/' + saas.logo;
-            div.appendChild(img);
             availableGrid.appendChild(div);
-        }
-
-    });
-}
-
-// Display not avaible SaaS as images in a div
-let notAvailableGrid = document.getElementById("not-available-grid");
-function displayNotAvailable(saasList) {
-    saasList.forEach(saas => {
-        if (saas.acquired == false && saas.price > player.budget) {
-            let div = document.createElement("div");
-            let img = document.createElement("img");
-            img.src = 'img/logos/' + saas.logo;
-            div.appendChild(img);
+        } 
+        else if (saas.acquired == false && saas.price > player.budget) {
             notAvailableGrid.appendChild(div);
-        }
-
-    });
-}
-
-// Display acquired SaaS as images in a div
-let mySaasGrid = document.getElementById("my-saas-grid");
-function displayAcquired(saasList) {
-    saasList.forEach(saas => {
-        if (saas.acquired == true) {
-            let div = document.createElement("div");
-            let img = document.createElement("img");
-            img.src = 'img/logos/' + saas.logo;
-            div.appendChild(img);
+        } 
+        else if (saas.acquired == true) {
             mySaasGrid.appendChild(div);
         }
-
     });
 }
