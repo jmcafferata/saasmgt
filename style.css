@@ -2,27 +2,68 @@
     margin: 0;
     padding: 0;
     font-family: 'Plus Jakarta Sans',sans-serif;
+    font-weight: 200;
+    color:#20203c;
+}
+
+body {
+    overflow: hidden;
+    padding:0 16px;
+}
+.saas-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height:300px;
+    width: 300px;
+    overflow: scroll;
+    background-color: #ccc;
+    padding:16px;
+}
+
+.saas-grid div{
+    width: 50px;
+    height: 50px; 
+}
+
+.saas-grid img{
+width: 50px;
+height: 50px;
+border-radius: 6px;
+}
+
+h2{
+    font-size: 16px;
+    padding: 16px 0;
 }
 .main-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-height: 100vh;
+}
+
+#marketplace-col,#stats-div {
+    max-height: 100vh;
     overflow: hidden;
 }
 
-#marketplace-col {
-    max-height: 100%;
-    overflow: hidden;
-}
 
-#available-grid, #not-available-grid, #my-saas-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px;
-    padding: 10px;
-    max-height:50%;
-    overflow: scroll;
-    background-color: #ccc;
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+ 
+ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888; 
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 
 
@@ -36,7 +77,6 @@
 
 #stats-div {
     float: right;
-    padding: 1em;
 }
 
 #budget-bar {
