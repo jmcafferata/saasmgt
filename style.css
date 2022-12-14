@@ -1,97 +1,142 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Plus Jakarta Sans',sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 200;
-    color:#20203c;
+    color: #20203c;
 }
 
 body {
     overflow: hidden;
-    padding:0 16px;
+    padding: 0 16px;
 }
-.saas-grid{
+
+.saas-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height:300px;
-    width: 300px;
-    overflow: scroll;
-    background-color: #ccc;
-    padding:16px;
+    height: 300px;
+    width: 245px;
+    grid-column-gap: 14px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #eff2f7;
+    border: #E2E8F1 solid 1px;
+    border-radius: 6px;
+    padding: 16px;
+    justify-content: center;
 }
 
-.saas-grid div{
+#marketplace-grid {
+    height: 600px;
+}
+
+#player-stats-div {
+    width: 245px;
+    height: 300px;
+}
+
+#player-stats-div p {
+    font-weight: 900;
+}
+
+.stat-div {
+    margin-top: 16px;
+}
+
+#player-stats-div p span {
+    font-weight: 900;
+}
+
+#cac-bar {
+    background: linear-gradient(to right, rgb(255, 124, 124), rgb(144, 255, 144));
+    width: 275px;
+    height: 8px;
+    border-radius: 8px;
+}
+
+.unavailable img {
+    filter: grayscale();
+    filter: saturate(0);
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.saas-grid div {
     width: 50px;
-    height: 50px; 
+    text-align: center;
+    transition: all 100ms ease;
 }
 
-.saas-grid img{
-width: 50px;
-height: 50px;
-border-radius: 6px;
+.saas-grid div:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
-h2{
+.saas-grid .unavailable:hover {
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.saas-grid .saas-name {
+    font-weight: 900;
+    font-size: 8px;
+    padding: 4px 0 16px 0;
+}
+
+.saas-grid img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    box-shadow: #aeb9d0 0px 0px 6px;
+}
+
+
+h2 {
     font-size: 16px;
     padding: 16px 0;
 }
+
 .main-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-height: 100vh;
+    max-width: 600px;
+    margin: auto;
 }
 
-#marketplace-col,#stats-div {
+#marketplace-col,
+#stats-div {
     max-height: 100vh;
     overflow: hidden;
+}
+
+#numbers-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
 ::-webkit-scrollbar {
     width: 4px;
     height: 4px;
+    background-color: #eff2f7;
 }
- 
-::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+
+
+::-webkit-scrollbar-thumb {
     border-radius: 10px;
+    background: #E2E8F1;
+
 }
- 
- ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background: #888; 
-}
- 
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #bcc3cc;
 }
 
 
-#available-grid img, #not-available-grid img {
+.saas-grid img {
     max-width: 50px;
-}
-
-#my-saas-grid img {
-    max-width: 50px;
-}
-
-#stats-div {
-    float: right;
-}
-
-#budget-bar {
-    height: 20px;
-    width: 90%;
-    background-color: #4CAF50;
-}
-
-#cac-bar {
-    height: 20px;
-    width: 50%;
-    background-color: #f44336;
-}
-
-#customers-text {
-    font-size: 24px;
-    font-weight: bold;
 }

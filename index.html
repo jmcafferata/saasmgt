@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;800&display=swap"
+        rel="stylesheet">
     <title>webpage</title>
-   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main-container">
-    <div id="marketplace-col">
-        <h2>Available</h2>
-        <div id="available-grid" class="saas-grid"></div>
-        <h2>Not Available</h2>
-        <div id="not-available-grid" class="saas-grid"></div>
+        <div id="marketplace-col">
+            <h2>Marketplace</h2>
+            <div id="marketplace-grid" class="saas-grid"></div>
+        </div>
+        <div id="stats-div">
+            <h2>My SaaS</h2>
+            <div id="my-saas-grid" class="saas-grid"></div>
+            <div id="player-stats-div">
+                <div id="numbers-div">
+                    <div id="budget-div" class="stat-div">
+                        <label>Budget</label>
+                        <p>$<span id="player-budget">0</span></p>
+                    </div>
+                    <div id="customers-div" class="stat-div">
+                        <label>Customers</label>
+                        <p><span id="player-customers">0</span></p>
+                    </div>
+                </div>
+                <div>
+                    <div id="cac-div" class="stat-div">
+                        <label>CAC</label>
+                        <div id="cac-bar">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p id="timer">1:00</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="stats-div">
-        <h2>My SaaS</h2>
-        <div id="my-saas-grid" class="saas-grid"></div>
-        Budget: <div id="budget-bar"></div><br>
-        <span id="customers-text">0</span><br>
-        CAC: <div id="cac-bar"></div>
-    </div>
-</div>
     <script src="papaparse/papaparse.js"></script>
     <script src="app.js"></script>
 </body>
+
 </html>

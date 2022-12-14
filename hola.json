@@ -1,0 +1,10 @@
+{
+    "name": "Atmacare",
+    "description": "Connected health care network",
+    "price": 25,
+    "roi": 0.8,
+    "scalability": 0.4,
+    "logo": "logo11.jpg",
+    "acquired": false,
+    "priceAnnual": 275
+}
