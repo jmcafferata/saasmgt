@@ -11,6 +11,8 @@
 }
 
 #marketplace-col {
+    max-height: 100%;
+    overflow: hidden;
 }
 
 #available-grid, #not-available-grid, #my-saas-grid {
