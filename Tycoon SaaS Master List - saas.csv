@@ -1,0 +1,81 @@
+name,description,price,roi,scalability,logo
+Bliptz,Post-it transcription,12,1.1,0.2,logo1.jpg
+Chronique,Automated productivity tracking,35,0.6,0.3,logo2.jpg
+Gooberbank,Personal banker for pennies,35,0.6,0.3,logo3.jpg
+FlorPath,Nature-inspired software engineering,45,0.6,0.3,logo4.jpg
+Kelefat,AI-powered ancient ruin explorer,80,0.6,0.3,logo5.jpg
+GiggleRush,Social network for comedy,210,0.6,0.3,logo6.jpg
+Stardust,Real-time extraterrestrial weather monitor,70,0.6,0.3,logo7.jpg
+GlamourBug,automated beauty franchise,0,0.6,0.3,logo8.jpg
+PruneCloud,Automated cloud storage management,35,0.6,0.3,logo9.jpg
+Octompose,Advanced image recognition,475,0.9,0.3,logo10.jpg
+Atmacare,Connected health care network,25,0.8,0.4,logo11.jpg
+Horzy,Automatic replies to emails,25,0.8,0.4,logo12.jpg
+Tangeer,Online tango tutorial,40,0.8,0.4,logo13.jpg
+FluxSound,Music streaming app,48,0.8,0.4,logo14.jpg
+Lunno,AI-powered assistant to take regular breaks,60,0.8,0.4,logo15.jpg
+Baconbits,Bacon-based insights engine,67,0.8,0.4,logo16.jpg
+CoverDrop,AI-assisted data transmission,180,0.8,0.4,logo17.jpg
+Crabtree,Automated project generator,77,1.2,0.4,logo18.jpg
+Signalink,Scheduled data analysis,60,1.3,0.5,logo19.jpg
+Robopyx,Robotic customer service,60,1.3,0.5,logo20.jpg
+Gauchito,AI-powered gaucho locator,90,1.3,0.5,logo21.jpg
+Wittora,AI-assisted witty text generator,105,1.3,0.5,logo22.jpg
+Gommerli,Automated assignment generator,144,1.3,0.5,logo23.jpg
+PrimPsi,Psychic dream reader,500,1.3,0.5,logo24.jpg
+Questra,AI-enhanced quest completion assistant,630,1.3,0.5,logo25.jpg
+ChickenLoft,Automated nest monitoring,24,1.5,0.5,logo26.jpg
+Shadoobe,Smart AI-powered investment advisor,60,0.7,0.6,logo27.jpg
+Tetroid,Tactial puzzle strategist,80,0.8,0.6,logo28.jpg
+MyClocker,AI-based time management app,45,1.1,0.6,logo29.jpg
+KritThang,Music creator,45,1.1,0.6,logo30.jpg
+Mealmunch,Automated meal planner,75,1.1,0.6,logo31.jpg
+Synaxis,Mind-reading gadget,90,1.1,0.6,logo32.jpg
+Monstro,Meeting assistant for teams,90,1.1,0.6,logo33.jpg
+Fridgify,Automated refrigeration controller,100,1.1,0.6,logo34.jpg
+StrideMath,Task-based math tutor,120,1.1,0.6,logo35.jpg
+Fluximate,Online shop stock analysis,12,1,0.7,logo36.jpg
+Krankle,AI-based game analysis,12,1,0.7,logo37.jpg
+GameEaze,Video game review engine,12,1,0.7,logo38.jpg
+Cabawa,Maté-powered productivity tool,30,1,0.7,logo39.jpg
+Foncreate,Web font generator,48,1,0.7,logo40.jpg
+CycloNet,Omnipresent net connecting multiple realities,150,1,0.7,logo41.jpg
+Minimorne,Online insomnia-fighter,40,1,0.7,logo42.jpg
+Bowsr,Princess capturing tool,50,1.1,0.7,logo43.jpg
+Salamanderking,Virtual assistant for daily tasks,72,1.4,0.7,logo44.jpg
+Greshi,Automated task scheduler,90,1.4,0.7,logo45.jpg
+CoxIQ,AI-fueled financial advice,90,1.4,0.7,logo46.jpg
+Solarzer,Space navigation tool,35,1.4,0.7,logo47.jpg
+ZoomGlee,Video conferencing app,36,1.4,0.7,logo48.jpg
+Somos,24/7 care assistant,36,1.4,0.7,logo49.jpg
+GlimVR,Virtual reality guides,40,1.4,0.7,logo50.jpg
+Kuker,Web-bot-based customer support,24,0.5,0.8,logo51.jpg
+Dudiz,Facial expression recognition,24,0.5,0.8,logo52.jpg
+SnuffleBot,AI-powered project management,99,0.5,0.8,logo53.jpg
+Pasco,Automated soccer predictions,120,0.5,0.8,logo54.jpg
+Hiltzo,Shopping assistant,150,0.5,0.8,logo55.jpg
+NetMeme,AI-powered meme creator,180,0.5,0.8,logo56.jpg
+Qvalia,Quantum computing tools,720,0.5,0.8,logo57.jpg
+Triforce,Adventure-planning tool,60,1,0.8,logo58.jpg
+HelmStone,Secure backup solution,20,1.2,0.8,logo59.jpg
+Goofsicle,Prank-based chatbot,20,1.2,0.8,logo60.jpg
+Pelicor,Movie streaming assistant,24,1.2,0.8,logo61.jpg
+Homeroo,Home automation assistant,30,1.2,0.8,logo62.jpg
+chefBone,AI-assisted culinary assistant,60,1.2,0.8,logo63.jpg
+CurlBird,Smart email reader,120,1.2,0.8,logo64.jpg
+ChronoSoft,Time-tracking software,40,1.2,0.8,logo65.jpg
+Trapit,Location-based task scheduler,42,0.6,0.9,logo66.jpg
+Gavica,Automated resource optimization,50,0.7,0.9,logo67.jpg
+Lazyleaf,Task-oriented productivity tool,50,0.7,0.9,logo68.jpg
+Mendo,AI-powered Argentinean slang translator,75,0.7,0.9,logo69.jpg
+Quizium,Trivia solving software,80,0.7,0.9,logo70.jpg
+Virblink,Real-time virus detection,108,0.7,0.9,logo71.jpg
+Cloxyloop,Calendar notifications,200,0.7,0.9,logo72.jpg
+Linkling,Open-world exploration assistant,50,0.7,0.9,logo73.jpg
+Xenobolus,Intergalactic currency exchange agent,540,0.7,0.9,logo74.jpg
+Listleaf,Laziness tracker,20,1.3,0.9,logo75.jpg
+Cubetric,Building blocks simulator,45,1.3,0.9,logo76.jpg
+Elvish,Tolkienlore analyzer,50,0.8,1,logo77.jpg
+,,,,,logo78.jpg
+,,,,,logo79.jpg
+,,,,,logo80.jpg
